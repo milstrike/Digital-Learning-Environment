@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dle.book"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.dle.book.Pre"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.dle.book.Splash" android:label="@string/app_name" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.dle.book.MainActivity" android:label="@string/app_name" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.dle.book.Register" android:label="@string/app_name" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.dle.book.Classroom" android:label="@string/app_name" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.dle.book.Bookshelf" android:label="@string/app_name" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.dle.book.Chapter" android:label="@string/app_name" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.dle.book.Book" android:label="@string/app_name" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.dle.book.CreateBook" android:label="@string/app_name" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.dle.book.CreateClassroom" android:label="@string/app_name" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.dle.book.CreateBookshelf" android:label="@string/app_name" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.dle.book.CreateChapter" android:label="@string/app_name" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.dle.book.Settings" android:label="@string/app_name" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.dle.book.Bookshelf_ClassChooser" android:label="@string/app_name" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.dle.book.Chapter_ClassChooser" android:label="@string/app_name" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.dle.book.Chapter_BookshelfChooser" android:label="@string/app_name" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.dle.book.Book_chooseChapter" android:label="@string/app_name" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.dle.book.Profile" android:label="@string/app_name" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.dle.book.About" android:label="@string/app_name" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.dle.book.Support" android:label="@string/app_name" android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
